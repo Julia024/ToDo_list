@@ -1,0 +1,39 @@
+.root {
+    display: grid;
+    justify-content: center;
+    margin-top: 10rem;
+    font-size: 1.5rem;
+}
+.title {
+    text-align: center;
+    color: rgb(35, 89, 131);
+}
+.user-input {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#text {
+    padding: 0.7rem;
+    border-radius: 1rem;
+    width: 15rem;
+
+}
+
+.btn {
+    padding: 0.7rem;
+    border-radius: 1rem;
+    width: 10rem;
+    background-color: rgb(14, 133, 48);
+    color: aliceblue;
+    font-weight: 600;
+}
+.list {
+    list-style: none;
+}
+.list-decor {
+    text-decoration: line-through;
+    color: red;
+}
